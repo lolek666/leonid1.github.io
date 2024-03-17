@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: arimo;
+    src: url(../fonts/Arimo-Regular.ttf)
+}
+
+html, body, main {
+    height: 100%;
+    font-family: arimo;
+}
+
+.first {
+    height: 100%;
+    background-image: url(../img/modern5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.first p, h1 {
+    color: whitesmoke;
+}
+
+.tourism {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 80px;
+}
+.text-countainer {
+    width: 40%;
+    margin-left: 15%;
+    margin-top: 15%;
+}
+
+.first-line {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.5;
+    line-height: 1;
+}
+.second-line{
+    text-transform: uppercase;
+    font-size: 56px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    line-height: 1;
+}
+.third-line{
+    font-size: 16px;
+}
+.second {
+    height: 100%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-container {
+    width: 70%;
+    max-width: 1200px;
+}
+.gallery-img {
+    width: 100%;
+    display: flex;
+    align-items: self-start;
+}
+img {
+    display: block;
+    max-width: 85%;
+    height: auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.3);
+}
+.img1 {
+    width: 55%;
+}
+.wrapper {
+    margin-left: 20px;
+}
+.img2 {
+    margin-bottom: 20px;
+}
+.text-gallery {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.gallery-header {
+    color: black;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 1;
+    margin-right: 40px;
+}
+.gallery-p {
+    font-size: 18px;
+    width: 60%;
+}
+.third {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/modern3.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 0 25%;
+}
+.footer-header {
+    color: white;
+    font-size: 26px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+.footer-p {
+    color: azure;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+header {
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(114, 114, 114);
+    color: black;
+}
+.logo {
+    width: 60px;
+    height: 60px;
+    background-color: rgb(35, 97, 35);
+    margin: 20px;
+    margin-right: 30px;
+}
+.menu {
+    flex-grow: 1;
+}
+.menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li {
+    margin-right: 30px;
+}
+.menu a {
+    padding: 8px 10px;
+    display: block;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background-color: rgb(35, 97, 35);
+    text-decoration: none;
+    color: black;
+}
+.menu a:hover {
+    background-color: rgb(42, 140, 107);
+}
+
+.tel {
+    font-size: 16px;
+    line-height: 24px;
+    margin-right: 30px;
+}
+.tel a {
+    color: black;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
